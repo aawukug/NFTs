@@ -1,0 +1,131 @@
+html, body {
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: #2b283a;
+    background-color: #f7f3e8;
+}
+
+/* typography */
+body, 
+h1, 
+h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 20px;
+    color: #FFF4D2;
+}
+
+p {
+    line-height: 23px;
+}
+
+/* links */
+
+ a {
+    color: #d95a24;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #d4b44c;
+}
+
+.btn  {
+    display: inline-block;
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.buy-nft {
+    background-color: #FCD252;
+    color: #f7f3e8;
+}
+
+.more-info, .contact {
+    background-color: #684C40;
+    color: #E1C9A3;
+}
+
+.about-us {
+    background-color: #f7f3e8;
+    color: #FCD252;
+}
+
+.btn:hover, .btn:active{
+    background-color: #E1C9A3;
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+/* layout */
+section, 
+footer, 
+header {
+    padding: 45px 0px;
+}
+
+header, .section-two {
+    background-color: #FCD252;  
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+.section-two{
+    color: whitesmoke;
+}
+
+.section-two-img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+body, footer {
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    color: #d4b44c;
+}
+
+
+
+
+/* images */
+.bored-ape-img {
+    width: 100%;
+}
+
+.emoji-img, .snail-img {
+    width: 300px;
+    border-radius: 4.6px;
+} 
+
+footer img {
+    width: 25px;
+}
+
+
