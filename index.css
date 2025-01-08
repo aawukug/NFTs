@@ -36,7 +36,7 @@ p {
 /* links */
 
  a {
-    color: #d95a24;
+    color: #BB8F62ff;
     text-decoration: none;
 }
 
@@ -56,18 +56,18 @@ a:hover, a:active {
 }
 
 .buy-nft {
-    background-color: #FCD252;
+    background-color: #0054A5ff;
     color: #f7f3e8;
 }
 
 .more-info, .contact {
-    background-color: #684C40;
-    color: #E1C9A3;
+    background-color: #1D3048ff;
+    color: #f7f3e8;
 }
 
 .about-us {
     background-color: #f7f3e8;
-    color: #FCD252;
+    color: #0054A5ff;
 }
 
 .btn:hover, .btn:active{
@@ -86,7 +86,7 @@ header {
 
 
 header, .section-two {
-    background-color: #FCD252;  
+    background-color: #0054A5ff;  
 }
 
 .container {
@@ -112,7 +112,7 @@ body, footer {
 
 footer {
     text-align: center;
-    color: #d4b44c;
+    color: #0054A5ff;
 }
 
 
@@ -219,7 +219,7 @@ ul {
     }
 
     nav a {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 
