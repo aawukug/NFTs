@@ -13,21 +13,24 @@ h3 {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 1.5rem;
 
 }
 
 h2 {
     margin-top: 0;
+    font-size: 1.125rem;
 }
 
-h3 {
-    font-size: 20px;
+.subheading {
+    display: block;
+    font-size: 0.85rem;
     color: #FFF4D2;
 }
 
 p {
-    line-height: 23px;
+    font-size: 0.75rem;
+    line-height: 1.5;
 }
 
 /* links */
@@ -42,8 +45,11 @@ a:hover, a:active {
 }
 
 .btn  {
-    display: inline-block;
-    padding: 10px 19px;
+    font-size: 1.125rem;
+    display: block;
+    text-align: center;
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
     border-radius: 4.6px;
     font-weight: 500;
     text-decoration: none;
@@ -72,24 +78,21 @@ a:hover, a:active {
 
 
 
-
-
-
-
-
 /* layout */
 section, 
 footer, 
 header {
-    padding: 45px 0px;
+    padding: 1.25em 0px;
 }
+
 
 header, .section-two {
     background-color: #FCD252;  
 }
 
 .container {
-    width: 620px;
+    width: 90%;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -97,13 +100,9 @@ header, .section-two {
     color: whitesmoke;
 }
 
-.section-two-img-container {
-    display: flex;
-    justify-content: space-between;
-}
 
 body, footer {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 footer {
@@ -116,16 +115,111 @@ footer {
 
 /* images */
 .bored-ape-img {
+    max-width: 600px;
+    margin: 0 auto 2em;
+    display: block;
     width: 100%;
 }
 
-.emoji-img, .snail-img {
-    width: 300px;
+.emoji-img, .snail-img{
+    width: 100%;
     border-radius: 4.6px;
+    margin-bottom: 1em;
 } 
 
-footer img {
-    width: 25px;
+
+/* ----- NAVIGATION ----- */
+
+nav a {
+    color: #fff;   
+    text-decoration: none; 
+    font-size: 0.9rem;
+    padding: 0.85em 0;
+    display: block;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+
+/* ----- MEDIA QUERIES ----- */
+
+@media ( min-width: 480px ) {
+    .section-two-image-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .emoji-img, .snail-img {
+        width: 48.8%;  
+        margin-right: 0.3125em;     
+    }
+}
+
+
+@media (max-width: 767px) {
+    header {
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 1em;
+    }  
+
+    li:not(:last-child) {
+        border-bottom: 1px dotted #a190b6;
+    }  
+}
+
+@media ( min-width: 768px ) {
+    header .container {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .container,
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        margin-left: 1.25em;
+    }
+
+    header, 
+    section, 
+    footer {
+    padding: 2.875em 0;
+}
+
+    .btn  {
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+
+h1 {
+    font-size: 2.25rem;
+
+}
+
+h2 {
+    font-size: 1.85rem;
+}
+
+.subheading {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1.35rem;
+}
+
+
 }
 
 
